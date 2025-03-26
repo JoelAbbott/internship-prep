@@ -1,3 +1,6 @@
 hostname = server001  
 port = 443  
 use_ssl = true
+ERROR unable to find
+account = running
+ERROR unable to run
