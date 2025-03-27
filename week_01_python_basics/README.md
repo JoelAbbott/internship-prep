@@ -41,7 +41,8 @@ week_01_python_basics/
 - [x] Implement `try/except` for file handling
 - [x] Set up a local logging system using `logging`
 - [x] Use Git + GitHub to manage and push updates
-- [ ] Complete all 3–4 coding challenges by end of week
+- [X] Complete all 3–4 coding challenges by end of week
+- [ ] Review basic pandas concepts
 
 ---
 
@@ -53,8 +54,30 @@ week_01_python_basics/
 
 ---
 
+---
+
+## 🐼 pandas_basic_cleaner.py – CSV Cleanup Tool
+
+### 📌 Purpose
+Reads a messy CSV file (e.g., from NetSuite), removes duplicate/missing rows, and saves a cleaned version.
+
+### 📂 Input
+- `data/messy_export.csv` ← Uncleaned file
+
+### 📤 Output
+- `data/cleaned_export.csv` ← Final cleaned version
+- `logs/pandas_cleaner.log` ← Tracks all steps (start, read, clean, save)
+
+### 🛠 Tools Used
+- `pandas`
+- `logging`
+- `os`
+- `functions`, `try/except`, pseudocode
+
+### 🔍 Sample Use
+```bash
+python pandas_basic_cleaner.py
+
 ## 🚀 Next Steps
 
-- Finish `empty_line_remover.py` with pseudocode and logging
-- Practice writing scripts without reference as confidence grows
-- Push updates to GitHub and update README as new files are completed
+- review pandas
